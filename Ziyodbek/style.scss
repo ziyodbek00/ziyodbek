@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin df($jc,$al) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $al;  
+}
